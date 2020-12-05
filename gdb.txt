@@ -2,6 +2,17 @@
 Detailed list of GDB commands:
 http://web.cecs.pdx.edu/~jrb/cs201/lectures/handouts/gdbcomm.txt
 
+///////////////////
+From gracker.org:
+ ● `disassemble main` - look at the assembly code of the main function
+ ● `break *0x12345678` - set a breakpoint at address 0x12345678
+ ● `x 0x12345678` - examine/print the content of address 0x12345678
+ ● `x/xw 0x12345678` - print the content of address 0x12345678 as hex word
+ ● `x/s 0x12345678` - print the content of address 0x12345678 as a string
+ ● `run` - run/restart the program you are debugging
+ ● `continue` - continue execution after you stopped at a breakpoint
+ ● `quit` - exit gdb
+
 
 ///////////////////
 Common GDB commands:
