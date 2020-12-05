@@ -1,0 +1,1 @@
+objdump -D /file/location
